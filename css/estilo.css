@@ -1,0 +1,153 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    border: 0px;
+    text-align: center;
+}
+body{
+    background-color: greenyellow;
+}
+.padre{
+    background-color: green;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr 3fr 4fr 4fr 2fr 2fr 1fr;
+    grid-template-areas:"c1 c1 c1 c1 c1 c1 c1 c1"
+                        "c2 c2 c2 c3 c3 c3 c4 c4"
+                        "c5 c5 c5 c5 c5 c5 c6 c6"
+                        "c7 c7 c7 c8 c8 c8 c8 c8"
+                        "c7 c7 c7 c8 c8 c8 c8 c8"
+                        "c9 c9 c9 c10 c11 c11 c11 c11"
+                        "c9 c9 c9 c10 c12 c12 c12 c12";                        
+}
+.c1{
+    background-color: rgb(18, 70, 154);
+    grid-area: c1;
+}
+.c2{
+    background-color: rgb(18, 70, 154);
+    grid-area: c2;
+}
+.c3{
+    background-color: rgb(18, 70, 154);
+    grid-area: c3;
+}
+.c4{
+    background-color: rgb(18, 70, 154);
+    grid-area: c4;
+}
+.c5{
+    background-color: rgb(18, 70, 154);
+    grid-area: c5;
+}
+.c6{
+    background-color: rgb(18, 70, 154);
+    grid-area: c6;
+}
+.c7{
+    background-color: rgb(18, 70, 154);
+    grid-area: c7;
+}
+.c8{
+    background-color: rgb(18, 70, 154);
+    grid-area: c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.c9{
+    background-color: rgb(18, 70, 154);
+    grid-area: c9;
+}
+.c10{
+    background-color: rgb(18, 70, 154);
+    grid-area: c10;
+}
+.c11{
+    background-color: rgb(18, 70, 154);
+    grid-area: c11;
+}
+.c12{
+    background-color: rgb(18, 70, 154);
+    grid-area: c12;
+}
+.c81{
+    background-color: whitesmoke;
+    border-radius: 70%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.c82{
+    background-color: blueviolet;
+    border-radius: 30%;
+    grid-column: 2/4;
+    grid-row: 2/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"c01 c02"
+                        "c03 c03";
+
+}
+.c83{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+.c84{
+    background-color: whitesmoke;
+    border-radius: 70%;
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+.c85{
+    background-color: blueviolet;
+    border-radius: 30%;
+    grid-column: 6/8;
+    grid-row: 2/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"c04 c05"
+                        "c06 c06";
+}
+.c86{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    grid-column: 8/9;
+    grid-row: 1/3;
+}
+.c01{
+    background-color: black;
+    grid-area: c01;
+    border-radius: 50%;
+}
+.c02{
+    background-color: black;
+    grid-area: c02;
+    border-radius: 50%;
+}
+.c03{
+    background-color: black;
+    grid-area: c03;
+    border-radius: 50%;
+}
+.c04{
+    background-color: black;
+    grid-area: c04;
+    border-radius: 50%;
+}
+.c05{
+    background-color: black;
+    grid-area: c05;
+    border-radius: 50%;
+}
+.c06{
+    background-color: black;
+    grid-area: c06;
+    border-radius: 50%;
+}
+
